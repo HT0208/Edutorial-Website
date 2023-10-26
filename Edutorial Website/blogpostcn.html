@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Stack.Point</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a  href="blogslist.html">Blog</a>
+          </li>
+          <li>
+              <a href="projectlist.html">Projects</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+              <input type="text" placeholder="Search Here">
+          </li>
+      </ul>
+  </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="#">
+              <img src="img/logo.png" alt="Stack.Point Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="active" href="blogslist.html">Blog</a>
+          </li>
+          <li>
+              <a href="projectlist.html">Projects</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+              <div id="search-icon">
+                  <i class="fas fa-search"></i>
+              </div>
+          </li>
+      </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">Computer Network</h2>
+    <div id="post-container">
+      <section id="blogpost">
+        <div class="card">
+          <div class="card-meta-blogpost">
+            Posted by Admin on 01/01/2018 in
+            <a href="#">Harsh Tomar</a>
+          </div>
+          <div class="card-image">
+            <img src="img/CN.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>The Introduction</h3>
+            <p>A computer network is a group of interconnected nodes or computing devices that exchange data and resources with each other. 
+               A network connection between these devices can be established using cable or wireless media. </p>
+               <p> See Last Minute Notes on all subjects here. </p>
+               <ol>
+                <li>OSI Model </li>
+                <li>Physical Layer </li>
+                <li>Data Link layer </li>
+                <li>Network Layer </li>
+                <li>Transport Layer </li>
+                <li>Presentation & Session layer </li>
+                <li>Application Layer </li>
+                </ol>
+                
+            <h2>OSI Model </h2>
+            <p>
+            OSI stands for Open Systems Interconnection. It has been developed by ISO–  International Organization for Standardization, in the year 1984. It is a seven-layer architecture with each layer having specific functionality to perform. 
+            </p>
+            <h3>Layers and their uses: </h3>
+            
+             
+            <h4>Physical Layer </h4>
+            
+            <h5>Network Topologies: </h5>
+            <p>
+                Mesh Topology: In a mesh topology, every device is connected to another device via a particular channel. If suppose, N number of devices are connected with each other, then a total number of links is required to connect NC2.
+                Bus Topology: Bus topology is a network type in which every computer and network device is connected to a single cable. If N devices are connected, then the number of cables required is 1 which is known as backbone cable, and N drop lines are required.
+                Star Topology: In star topology, all the devices are connected to a single hub through a cable. If N devices are connected to each other, then the no. of cables required N.
+                Ring Topology: In this topology, it forms a ring connecting devices with exactly two neighboring devices.
+            </p>
+            <h5>Transmission Modes: </h5>
+            <p>
+                Simplex Mode: the communication is unidirectional, as on a one-way street. Only one of the two devices on a link can transmit, and the other can only receive.
+                Half-duplex Mode: each station can both transmit and receive, but not at the same time.
+                Full-duplex Mode: both stations can transmit and receive simultaneously.
+                Manchester Encoding: When there is a long sequence of 0s and 1s, there is a problem at the receiving end. The problem is that the synchronization is lost due to a lack of transmissions.
+                NRZ-level encoding: The polarity of signals changes when the incoming signal changes from ‘1’ to ‘0’ or from ‘0’ to ‘1’. It considers the first bit of data as polarity change.
+                NRZ-Inverted/ Differential encoding: In this, the transitions at the beginning of the bit interval are equal to 1 and if there is no transition at the beginning of the bit interval are equal to 0.
+            </p>
+          </div>
+        </div>
+
+        <div id="comments-section">
+          Comments Section
+          <input type="text" name="Write here..." size="60%">
+        </div>
+      </section>
+
+      <aside id="sidebar">
+        <h3>Computer Network</h3>
+        <p>Computer Network tutorial provides basic and advanced concepts of Data Communication & Networks (DCN).
+            Our Computer Networking Tutorial is designed for beginners and professionals.
+
+            Our Computer Network tutorial includes all topics of Computer Network such as introduction, features, types 
+            of computer network, architecture, hardware, software, internet, intranet, website, LAN, WAN, etc.</p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blogslist.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="projectlist.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/harsh-tomar-6307a516a">Contact</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/login/">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@harshtomar8418?si=NFHQcb0eUkbL0t2W">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/login">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>This website is developed by Harsh Tomar</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Stack.Point</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a  href="blogslist.html">Blog</a>
+          </li>
+          <li>
+              <a href="projectlist.html">Projects</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+              <input type="text" placeholder="Search Here">
+          </li>
+      </ul>
+  </div>
+
+  <nav>
+      <div id="logo-img">
+          <a href="#">
+              <img src="img/logo.png" alt="Stack.Point Logo">
+          </a>
+      </div>
+      <div id="menu-icon">
+          <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a class="active" href="blogslist.html">Blog</a>
+          </li>
+          <li>
+              <a href="projectlist.html">Projects</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+              <div id="search-icon">
+                  <i class="fas fa-search"></i>
+              </div>
+          </li>
+      </ul>
+  </nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">Object-Oriented Software Developer</h2>
+    <div id="post-container">
+      <section id="blogpost">
+        <div class="card">
+          <div class="card-meta-blogpost">
+            Posted by Admin on 01/01/2018 in
+            <a href="#">Harsh Tomar</a>
+          </div>
+          <div class="card-image">
+            <img src="img/2.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>The Introduction</h3>
+            <p>Systems development is the process of defining, designing, testing, and implementing a new 
+                software application or program. Programming is used as a tool for System Development</p>
+                <h4>Types of Model</h4>
+               <p> There are 3 types of models in the object oriented modelling and design are: </p>
+               <ol>
+                <li>Class Model </li>
+                <li>State Model </li>
+                <li>Interaction Model </li>
+                </ol>
+            
+                <h4>Class Model  </h4>
+                <p>
+                    The class model shows all the classes present in the system. The class model shows the 
+                    attributes and the behaviour associated with the objects. </p>
+                <p>
+                    The class diagram is used to show the class model. The class diagram shows the class name 
+                    followed by the attributes followed by the functions or the methods that are associated with 
+                    the object of the class. Goal in constructing class model is to capture those concepts from the 
+                    real world that are important to an application</p>
+                 
+                <h4>State Model </h4>
+                <p>
+                    State model describes those aspects of objects concerned with time and the sequencing of 
+                    operations – events that mark changes, states that define the context for events, and the 
+                    organization of events and states. Actions and events in a state diagram become operations 
+                    on objects in the class model. State diagram describes the state model.</p>
+                
+                <h4>Interaction Model </h4>
+                <p>nteraction model is used to show the various interactions between objects, how the objects 
+                    collaborate to achieve the behaviour of the system as a whole.
+                </p>
+              
+            
+            <h3>Unified Modelling Language </h3>
+            <p>
+                UML is a standard language for specifying, visualizing, constructing, and documenting 
+                the artifacts of software systems.
+                UML was created by the Object Management Group (OMG) and UML 1.0 specification 
+                draft was proposed to the OMG in January 1997.OMG is continuously making efforts 
+                to create a truly industry standard.
+                UML stands for Unified Modelling Language.
+                UML is different from the other common programming languages such as C++, Java, 
+                COBOL, etc.
+                UML is a pictorial language used to make software blueprints.
+                UML can be described as a general-purpose visual modelling language to visualize, 
+                specify, construct, and document software system. Although UML is generally used to 
+                model software systems, it is not limited within this boundary. It is also used to model 
+                non-software systems as well. For example, the process flow in a manufacturing unit, 
+                etc.
+                UML is not a programming language but tools can be used to generate code in various 
+                languages using UML diagrams. UML has a direct relation with object-oriented 
+                analysis and design. After some standardization, UML has become an OMG standard. 
+            </p>
+            <h5>UML Uses: </h5>
+            <ol>
+                <li>Enterprise information systems</li>
+                <li>Banking and financial services</li>
+                <li>Telecommunications</li>
+                <li>Transportation</li>
+                <li>Defence/aerospace</li>
+                <li>Retail</li>
+                <li>Medical electronics</li>
+                <li>Scientific</li>
+                <li>Distributed Web-based service</li>
+                </ol>
+          </div>
+        </div>
+
+        <div id="comments-section">
+          Comments Section
+          <input type="text" name="Write here..." size="60%">
+        </div>
+      </section>
+
+      <aside id="sidebar">
+        <h3>Object-Oriented Software Developer</h3>
+        <p>The Object-Oriented Software Developer (OOSD) program is designed to provide you with the knowledge and
+             practice you need to develop solid software development skills in minimal time.
+
+            OOSD's focus on objects early in the development, with attention to generating a useful model, creates a picture
+            of the system that is modifiable, reusable, reliable, and understandable — the last perhaps most important because the picture of a software system created by a
+            development method must be an effective device for communication among developers, customers, management, and quality-assurance personnel.</p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blogslist.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="projectlist.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/harsh-tomar-6307a516a">Contact</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/login/">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@harshtomar8418?si=NFHQcb0eUkbL0t2W">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/login">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>This website is developed by Harsh Tomar</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
